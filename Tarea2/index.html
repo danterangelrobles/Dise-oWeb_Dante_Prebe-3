@@ -8,20 +8,113 @@ Nombre con imagen
 Peliculas
 Flores
 Carros
+-->
 <html>
 <head>
--->
+	<meta charset="UTF-8">
+<style>
+
+		body{
+			background-image:url("img/fondo.jpg");
+			background-size:100% 100%;
+			background-repeat:no-repeat; 
+			width:100%; 
+			height:40vh;
+		}
+		nav{
+			background-image:url("img/fondo.jpg");
+			background-size:100% 100%;
+			background-repeat:no-repeat; 
+			
+		}
+		header{
+			background-image:url("img/fondo.jpg");
+			background-size:100% 100%;
+			background-repeat:no-repeat; 
+			
+		}
+		footer{
+			background-image:url("img/fondo.jpg");
+			background-size:100% 100%;
+			background-repeat:no-repeat; 
+			
+		}
+		aside{
+			background-image:url("img/fondo.jpg");
+			background-size:100% 100%;
+			background-repeat:no-repeat; 
+			
+		}
+		section{
+					background-size:100% 100%;
+			background-repeat:no-repeat; 
+		
+		}
+		article{
+			background-image:url("img/fondo.jpg");
+			background-size:100% 100%;
+			background-repeat:no-repeat; 
+			
+		}
+		#texth {
+			display:blockx;
+			color: gray;
+			margin-left: auto;
+			margin-right: auto;
+			font-size:15px;
+		}
+		.nav{
+			list-style: none;
+			display: inline;
+			margin: 0px;
+			padding-right: 20px;	
+		}
+		p[name="und"]{
+			color: green; !important
+		}
+		p[name="d"]{
+			color: orange;
+		}
+		p[name="dd"]{
+			color : white;
+		}
+		p:nth-child(even){
+			color : red;
+		}
+		ul>li{
+			color : red;
+		}
+		nav+p{
+			color : green !important;
+		}
+		nav ~ p{
+			color : blue;
+		}
+		a:link{
+			color : red;
+		}
+		p:hover{
+			font-size: 20px;
+		}
+		a:visited{
+			font-size: 5px;
+			font-color: blue;
+		}
+		a:active{
+			background-color: gray;
+		}
+		</style>
 	<title>Tarea 2</title>
 </head>
-<body  bgcolor="#101907" background="fondo.jpg" text="white">
+<body background="img/fondo.jpg" >
 	<header> <!--Este es la cabeza dentro del body Sirve para la distribucion-->
 		<h1>Dante Tarea 2</h1>
 	</header>
 	<nav><!--Este es la parte donde va la navegacion dentro del body Sirve para el menu-->
 		<ul>
-			<li>Peliculas</li>
-			<li>Flores</li>
-			<li>Carros</li>
+			<li class="nav">Peliculas</li>
+			<li class="nav">Flores</li>
+			<li class="nav">Carros</li>
 		</ul>
 	</nav>
 	<section><!--En esta parte se aloja todo el contenido rico-->
@@ -35,18 +128,19 @@ Carros
 		</header>
 
 		<section>			<hgroup> <!--Agrupacion-->
-			<table width="90%"  cellspacing="10" cellpadding="10" border="0">
+			
 				
-				<td>
+				
+
 					<img src="img/americanpie.jpg" align="center">
-				</td>
-				<td>
-					
-					<h6>Cuatro amigos del oeste de Michigan, Kevin Myers (Thomas Ian Nicholas), un estudiante con su novia Vicky (Tara Reid); Chris "Oz" Ostreicher (Chris Klein), un miembro del equipo de lacrosse de la escuela; Jim Levenstein (Jason Biggs), un ingenuo, torpe y sexual personaje cuyo padre Noah Levenstein (Eugene Levy) intenta ofrecerle asesoramiento sexual, comprándole y dándole pornografía; y Paul Finch (Eddie Kaye Thomas), un bebedor de capuccino sofisticado, hacen un pacto, por iniciativa de Kevin, para perder su virginidad antes de graduarse de la secundaria después de que un friki compañero de clase, Chuck Sherman (Chris Owen), dice haberlo hecho en una fiesta organizada por un compañero y jugador de lacrosse de Oz, Steve Stifler (Seann William Scott).
+			
+
+					<p name="d">
+					Cuatro amigos del oeste de Michigan, Kevin Myers (Thomas Ian Nicholas), un estudiante con su novia Vicky (Tara Reid); Chris "Oz" Ostreicher (Chris Klein), un miembro del equipo de lacrosse de la escuela; Jim Levenstein (Jason Biggs), un ingenuo, torpe y sexual personaje cuyo padre Noah Levenstein (Eugene Levy) intenta ofrecerle asesoramiento sexual, comprándole y dándole pornografía; y Paul Finch (Eddie Kaye Thomas), un bebedor de capuccino sofisticado, hacen un pacto, por iniciativa de Kevin, para perder su virginidad antes de graduarse de la secundaria después de que un friki compañero de clase, Chuck Sherman (Chris Owen), dice haberlo hecho en una fiesta organizada por un compañero y jugador de lacrosse de Oz, Steve Stifler (Seann William Scott).
 					<a href="http://es.wikipedia.org/wiki/American_Pie_%28pel%C3%ADcula%29">      Ver mas...</a>
-					</h6>
-				</td>
-			</table>
+					
+					</p>
+			
 		
 			</hgroup>
 			</section>
@@ -60,14 +154,11 @@ Carros
 			
 		</header>
 		<section>			<hgroup> <!--Agrupacion-->
-			<table width="90%" cellspacing="10" cellpadding="10" border="0">
-				
-				<td>
+		
 					<img src="img/rosas.jpg" align="center" width="190px" height="266">
-				</td>
-				<td>
+				
+					<p name="und">
 					
-					<h6>
 Rosas
  
 
@@ -77,10 +168,9 @@ Con respecto a su reproduccion, el clima ideal para las rosas es el calido. Siem
 
 Las rosas son flores que requieren de abundante agua. Claro que no hay que llegar a extremo de ahogarlas. Pero unas tres veces por semanas, es lo que normalmente requeriran las rosas. Incluso en la epoca de invierno. Si se van a pulverizar los petalos de rosa, se debe realizar en la noche. Cuando ya se haya escondido el sol. Lo mismo va para otro tipo de flores. Ya que los rayos de sol, al pasar por las gotas, pueden marchitar rapidamente todos los petalos. Esto puede ocurrir en cuestion de dias. Al momento de plantar rosas, debemos siempre, escoger un terreno, bastante humedo. No hay que olvidarse que son flores que requieren bastante agua. Para los principiantes, se les puede aconsejar un tipo de rosa. Las rosas floribundas. Son muy resistentes al frio y al calor. Por lo mismo son adecuadas para alguien que se inicia en el mundo de las rosas. Estas generalmente se dan en color blanco. Son rosas muy hermosas y producen una gran cantidad de botones. Lo otro positivo, es que crecen bastante rapido. Por lo que uno puede ver a las rosas crecidas en todo su esplendor en unos pocos meses.
 					<a href="http://www.buscarinformacion.com/flores/rosas.html">      Ver mas...</a>
-					</h6>
-				</td>
-			</table>
-		
+					
+					</p>
+				
 			</hgroup>
 			</section>
 
@@ -93,26 +183,20 @@ Las rosas son flores que requieren de abundante agua. Claro que no hay que llega
 			
 		</header>
 		<section>			<hgroup> <!--Agrupacion-->
-			<table width="90%" cellspacing="10" cellpadding="10" border="0">
-			<tr>	
-				<td>
+			
 					<img src="img/audi.jpg" align="center">
-				</td>
-				<td>
-					<br>
-					<h3>Audi A5 </h3>
-					<br>
-					<h6>Audi ha publicado nuevos datos sobre el Audi A5 y su variante deportiva Audi S5. Se podrán encargar desde el 6 de marzo y las primeras unidades llegarán a los concesionarios en junio.
+				
+					
+					<p class="dd">
+					Audi ha publicado nuevos datos sobre el Audi A5 y su variante deportiva Audi S5. Se podrán encargar desde el 6 de marzo y las primeras unidades llegarán a los concesionarios en junio.
 
 Las motorizaciones del A5 comienzan en un 1.8 TFSI de 170 caballos en gasolina y un 2.7 TDI de 240 190 cv en diésel. Para el S5 se confirma el motor V8 4.2 FSI de 354 caballos con tracción total. Un poco más abajo podéis ver la tabla completa de motores.
 
 Otros datos interesantes sobre el S5 es la tracción total con distribución 40%-60% (delante/detrás) y llantas de 18 pulgadas de serie con neumáticos 245/40.
 					<a href="http://www.motorpasion.com/deportivos/audi-a5-y-s5-mas-informacion-y-fotos">      Ver mas...</a>
-					</h6>
-				</td>
-				</tr>
-			</table>
-		
+					
+					</p>
+			
 			</hgroup>
 			</section>
 
@@ -120,17 +204,14 @@ Otros datos interesantes sobre el S5 es la tracción total con distribución 40%
 
 
 	</section>
-	<aside>  <!--Aside sirve para poner a un lado la informacion ,es la parte derecha -->
-		<blockquote></blockquote>   <!--Crea un bloque dentro del Aside-->
-		<blockquote></blockquote>
-	</aside>
+	
 	<footer > <!--Sirve y es para el pie de pagina-->
 		<table bgcolor="green" cellspacing="10" cellspacing="10">
 		<h2>
 		
 			Derecho Reservado para <a href="https://www.facebook.com/dante.uli">Dante Rangel</a>
 		</h2> 
-		</table> 
+		
 	</footer>
 
 </body>  <!--Cuerpo de programa-->
