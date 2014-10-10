@@ -1,14 +1,8 @@
 
 html{
-	background-image: "img/fondo.jpg"
+	background-image: "img/fondo.jpg";
 	padding: 4px;
-	width: 60%;
-	margin-right: auto;
-	margin-left: auto;
-	background: radial-gradient(#fff,#e0e0e0,#efefef);
-	box-shadow: 2px,2px,2px;
-	border-radius:5px;
-	margin-top: 20px;
-	margin-bottom: yellow;
-
+	width: 100%;
+	
+	
 }
