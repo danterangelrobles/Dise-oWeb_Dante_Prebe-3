@@ -1,6 +1,6 @@
 
 html{
-	background: "img/fondo.jpg";
+	background-image: "img/fondo.jpg"
 	padding: 4px;
 	width: 60%;
 	margin-right: auto;
