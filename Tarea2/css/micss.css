@@ -1,31 +1,4 @@
-nav{
-	
-	background: linear-gradient(black,gray,black);
-	box-shadow: 20px,20px,20px;
-	width: 80%;
-	height: 17%;
-	margin-right:auto; 
-	margin-left:auto;
-	border: 1px solid;
-	border-radius: 5px;
-	border-bottom: 100%;
 
-}
-nav ul{
-	list-style-type: none;
-	}
-nav li{
-
-	display:inline;
-	
-}
-nav ul li a:hover,nav ul li a:focus{
-	background-color: gray;
-}
-nav a{
-	text-decoration: none;
-
-}
 body{
 	padding: 4px;
 	width: 60%;
